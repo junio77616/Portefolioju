@@ -1,0 +1,32 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: ivory;
+}
+h1, h2, h3 {
+    color: darkslategray;
+    font-family: 'Verdana', sans-serif;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: goldenrod;
+    font-family: 'Helvetica Neue', sans-serif;
+
+}
+button {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 6px 9px;
+    border-radius: 1px;
+    cursor: pointer;
+    align-items: center;
+}

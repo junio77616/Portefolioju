@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="annexe.css">
+</head>
+<body>
+    
+    <table width="60%" border="0"> 
+        <tr bgcolor="red">
+
+        <h1><strong>Formulaire d'incription</strong></h1></tr>
+
+        <form action="submit_form.php" method="post">
+           <tr>
+            <th><label for="Pseudo">Pseudo</label></th>
+            <th><input type="text" name="Pseudp" required></th>
+           </tr>
+            
+            <tr>
+                <th><label for="Mot de passe">Mot de passe</label></th>
+                <th> <input type="password" name="Mot de passe" required></th>
+            </tr>
+
+            <tr>
+                <th><label for="Prenom"> Prenom</label></th>
+                <th> <input type="text" name="Prenom" placeholder="Prenom" required></th>
+            </tr>
+
+            <tr>
+                <th><label for="E-mail">E-mail</label></th>
+                <th> <input type="email" name="E-mail" required></th>
+            </tr>
+
+            <tr>
+                <th> <label for="Avatar">Avatar</label></th>
+                <th><input type="file" name="Avatar"></th>
+            </tr>
+
+            <tr>
+                <th><label for="Pays">Pays</label></th>
+                <th><select name="Pays" id="country" required>
+                     <option value="République du Congo"></option>
+                     <option value="Espagne"></option>
+                     <option value="France"></option>
+                     <option value="Canad"></option>
+                     <option value="Suisse"></option> </select>
+                </th>
+                
+            </tr>
+
+            <tr>
+                <th><label for="Question">Quel langage maîtrisez-vous ?</label></th>
+                <th><input type="checkbox" name="langage" value="Python"> Python
+            <input type="checkbox" name="langage" value="Html"> Html
+            <input type="checkbox" name="langage" value="Php"> Php
+            <input type="checkbox" name="langage" value="Css"> Css
+            <input type="checkbox" name="langage" value="Javascript"> Javascript</th>
+            </tr>
+
+            <tr>
+                <th> <label for="Civilité">Civilité</label></th>
+                <th> <input type="radio" name="Civilité" value="Mme">Femme
+            <input type="radio" name="Civilité" value="M">Homme </th>
+            </tr>
+           
+            <tr>
+                <th><label for="Ville">Ville</label></th>
+                <th><input type="text" name="Ville"></th>
+            </tr>
+            <tr>
+                <th><label for="Code Postal">Code Postal</label></th>
+                <th><input type="text" name="Code Postal"> </th>
+            </tr>
+            <tr>
+                <th><label for="Adresse">Adresse</label></th>
+                <th> <textarea rows="6" cols="55"></textarea> </th>
+            </tr>
+            <tr>
+                <th> <label for="Date">Date de Naissance</label></th>
+                <th> <input type="date" name="Date"></th>
+            </tr>
+            <tr>
+                <th><label for="Jauge">Jauge</label></th>
+                <th> <input type="range" name="Jauge" min="0" max="100"></th>
+            </tr>
+            <tr>
+                <th><label for="Téléphone">Téléphone</label></th>
+                <th> <input type="tel" name="Téléphone"></th>
+            </tr>
+
+            <label for="Recherche">Recherche</label>
+            <input type="search" name="Recherche"> <br>
+
+            <label for="url">Url</label>
+            <input type="url" name="Url"> <br>
+
+            <label for="couleur">Couleur</label>
+            <input type="color" name="Couleur"> <br>
+
+           <br> <button>Valider</button> <br>
+            <a href=""></a>
+               </form>
+    </table>
+
+    </table>
+</body>
+</html>
